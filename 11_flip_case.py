@@ -11,7 +11,7 @@ def flip_case(phrase, to_swap):
         'AaaaHHH'
 
     """
-
+# swap case method
     lower = to_swap.islower()
     if lower:
         phrase = phrase.replace(to_swap, "$")
