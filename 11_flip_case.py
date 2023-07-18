@@ -11,3 +11,15 @@ def flip_case(phrase, to_swap):
         'AaaaHHH'
 
     """
+
+    lower = to_swap.islower()
+    if lower:
+        phrase = phrase.replace(to_swap, "$")
+        phrase = phrase.replace(to_swap.upper(), to_swap)
+        phrase = phrase.replace("$", to_swap.upper())
+    else:
+        phrase = phrase.replace(to_swap, "$")
+        phrase = phrase.replace(to_swap.lower(), to_swap)
+        phrase = phrase.replace("$", to_swap.lower())
+
+    return phrase
