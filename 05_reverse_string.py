@@ -10,3 +10,4 @@ def reverse_string(phrase):
     ls = list(phrase)
     ls.reverse()
     return ''.join(ls)
+    # use slicing method

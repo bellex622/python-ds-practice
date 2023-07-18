@@ -16,3 +16,5 @@ def single_letter_count(word, letter):
         if char == letter:
             count += 1
     return count
+
+    # string count method

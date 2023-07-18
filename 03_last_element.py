@@ -14,6 +14,7 @@ def last_element(lst):
     """
     if len(lst) != 0:
         return lst[-1]
+    # if (lst)
 
 
 
